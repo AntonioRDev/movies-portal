@@ -1,0 +1,36 @@
+#releases .carousel-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.carousel-movie {
+    padding-bottom: 2.5rem;
+}
+
+.carousel-movie > div{
+    display: flex;
+    width: 50%;
+}
+
+.carousel-movie .movie-trailler{
+    padding: 10px 20px 0 15px;
+}
+
+.carousel-movie .movie-trailler iframe{
+    width: 100%;
+}
+
+.carousel-movie .movie-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-rating img{ 
+    margin-right: 5px;
+}
+
+.carousel-indicators li {
+    background-color: #616362;
+}

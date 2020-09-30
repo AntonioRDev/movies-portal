@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/releases.css">
+    <link rel="stylesheet" href="./css/highlighted.css">
   </head>
   
   <body>
@@ -240,16 +241,31 @@
     </section>
 
     <!-- Em destaque -->
-    <section></section>
+    <section id="highlighted">
+      <div class="highlighted-header">
+        <h2>Em destaque</h2>
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categoria: TODOS
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Aventura</a>
+            <a class="dropdown-item" href="#">Romance</a>
+            <a class="dropdown-item" href="#">Comédia</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Últimas avaliações -->
-    <section></section>
+    <section id="ratings"></section>
 
     <!-- Entrevistas e making of -->
-    <section></section>
+    <section id="interviews"></section>
     
     <!-- Novidades e Sobre -->
-    <main>
+    <main id="news">
       <div></div>
       <div></div>
     </main>

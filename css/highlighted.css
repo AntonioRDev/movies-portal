@@ -1,0 +1,8 @@
+#highlighted {
+    padding: 1rem 10rem 1rem 10rem;
+}
+
+.highlighted-header {
+    display: flex;
+    justify-content: space-between;
+}

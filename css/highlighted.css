@@ -6,3 +6,17 @@
     display: flex;
     justify-content: space-between;
 }
+
+#highlighted .btn-category {
+    border: 1px solid black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}
+
+.movies-banner img{ 
+    height: 350px;
+}
+
+.btn-plus-icon {
+    height: 40px;
+}

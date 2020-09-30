@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/releases.css">
     <link rel="stylesheet" href="./css/highlighted.css">
+    <link rel="stylesheet" href="./css/ratings.css">
   </head>
   
   <body>
@@ -243,10 +244,10 @@
     <!-- Em destaque -->
     <section id="highlighted">
       <div class="highlighted-header">
-        <h2>Em destaque</h2>
+        <h2 class="font-weight-bold">Em destaque</h2>
 
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn btn-white btn-category dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Categoria: TODOS
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -256,10 +257,133 @@
           </div>
         </div>
       </div>
+
+      <div class="movies-banner">
+        <div class="container-fluid">
+          <div class="row justify-content-between mt-3">
+            <div class="column">
+              <img class="movies-banner" src="./assets/images/bloodshot-banner.jpg" alt="Banner">
+            </div>
+            <div class="column">
+              <img class="movies-banner" src="./assets/images/coringa-banner.jpg" alt="Banner">
+            </div>
+            <div class="column">
+              <img class="movies-banner" src="./assets/images/justiceleague-banner.jpg" alt="Banner">
+            </div>
+            <div class="column">
+              <img class="movies-banner" src="./assets/images/sonic-banner.jpg" alt="Banner">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-row-reverse mt-4">
+        <button type="button" class="btn btn-dark d-flex align-items-center">
+          <img class="btn-plus-icon" src="./assets/icons/plus.svg" alt="Carregar mais">
+          <span>Carregar mais filmes</span>
+        </button>
+      </div>
     </section>
 
     <!-- Últimas avaliações -->
-    <section id="ratings"></section>
+    <section id="ratings">
+      <div class="ratings-header"> 
+        <h2 class="text-weight-bold">Últimas avaliações</h2>
+      </div>
+
+      <div class="ratings-cards mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex">
+              <div>
+                <img class="user-icon" src="./assets/icons/user.svg" alt="Foto Usuário">
+              </div>
+
+              <div>
+                <p class=" text-weight-bold">Nome do Avaliador</p>
+
+                <p> 
+                  <strong>Avaliação:</strong>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet harum nemo nobis! Quasi, deleniti, explicabo dolor ducimus expedita perspiciatis ex molestias nostrum sunt provident quibusdam libero, totam error harum recusandae blanditiis iste repellendus soluta doloribus minima maiores corrupti enim? Fugiat sit sint saepe, delectus non ratione illum omnis quas.
+                </p>
+
+                <div class="d-flex">
+                  <div class="d-flex">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                  </div>
+
+                  <div class="ml-4">
+                    <strong>02/09/2019</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col d-flex">
+              <div>
+                <img class="user-icon" src="./assets/icons/user.svg" alt="Foto Usuário">
+              </div>
+
+              <div>
+                <p class=" text-weight-bold">Nome do Avaliador</p>
+
+                <p> 
+                  <strong>Avaliação:</strong>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet harum nemo nobis! Quasi, deleniti, explicabo dolor ducimus expedita perspiciatis ex molestias nostrum sunt provident quibusdam libero, totam error harum recusandae blanditiis iste repellendus soluta doloribus minima maiores corrupti enim? Fugiat sit sint saepe, delectus non ratione illum omnis quas.
+                </p>
+
+                <div class="d-flex">
+                  <div class="d-flex">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                  </div>
+
+                  <div class="ml-4">
+                    <strong>02/09/2019</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col d-flex">
+              <div>
+                <img class="user-icon" src="./assets/icons/user.svg" alt="Foto Usuário">
+              </div>
+
+              <div>
+                <p class=" text-weight-bold">Nome do Avaliador</p>
+
+                <p> 
+                  <strong>Avaliação:</strong>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet harum nemo nobis! Quasi, deleniti, explicabo dolor ducimus expedita perspiciatis ex molestias nostrum sunt provident quibusdam libero, totam error harum recusandae blanditiis iste repellendus soluta doloribus minima maiores corrupti enim? Fugiat sit sint saepe, delectus non ratione illum omnis quas.
+                </p>
+
+                <div class="d-flex">
+                  <div class="d-flex">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                  </div>
+
+                  <div class="ml-4">
+                    <strong>02/09/2019</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Entrevistas e making of -->
     <section id="interviews"></section>
@@ -272,7 +396,7 @@
 
     <footer></footer>
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap scripts -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

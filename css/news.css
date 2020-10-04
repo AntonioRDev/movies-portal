@@ -1,0 +1,27 @@
+#news {
+    padding: 1rem 10rem 1rem 10rem;
+}
+
+.middle-news-card {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.news-card {
+    padding: 20px 0;
+}
+
+.news-card-img {
+    height: 150px;
+}
+
+.news-card-footer {
+    margin-top: .7rem;
+}
+
+.news-card-footer span {
+    background-color: gray;
+    color: white;
+    border-radius: 15px;
+    padding: 3px 15px;
+}

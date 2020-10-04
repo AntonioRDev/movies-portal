@@ -1,0 +1,11 @@
+.footer {
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.footer .logo img{
+    height: 50px;
+}

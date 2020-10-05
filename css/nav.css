@@ -60,3 +60,11 @@
     top: 10px;
     right: 10px;
 }
+
+.nav-logo {
+    margin-left: 2rem;
+}
+
+.nav-logo img {
+    height: 48px;
+}

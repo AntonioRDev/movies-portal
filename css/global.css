@@ -2,6 +2,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }

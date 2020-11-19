@@ -1,2 +1,2 @@
 # movies-portal
-Movies Portal created with html css and Bootstrap
+Movies Portal created with html css jquery and Bootstrap

@@ -9,6 +9,11 @@
     padding: 2rem 0;
 }
 
+.carousel-title h1 {
+    padding-bottom: 8px;
+    border-bottom: 2px solid black;
+}
+
 .carousel-movie {
     width: 100%;
     padding-bottom: 3.5rem;
@@ -16,26 +21,40 @@
 
 .carousel-movie > div{
     display: flex;
-    width: 50%;
+    /* width: 50%; */
 }
 
-.carousel-movie .movie-trailler{
+.carousel-movie .movie-poster{
+    width: 40%;
     padding: 10px 20px 0 15px;
+    display: flex;
+    justify-content: center;
 }
 
-.carousel-movie .movie-trailler iframe{
-    width: 100%;
+.carousel-movie .movie-poster img{
+    height: 450px;
 }
 
 .carousel-movie .movie-description {
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
 
-.movie-rating img{ 
-    margin-right: 5px;
-}
-
 .carousel-indicators li {
     background-color: #616362;
+}
+
+.flag {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F5C518;
+}
+
+.flag .inner-flag {
+    font-weight: bold;
+}
+
+.movie-production img {
+    height: 50px;
 }

@@ -1,0 +1,20 @@
+header {
+    padding: 15px 0;
+    position: relative;
+    background-color: #EEEEEE;
+}
+
+.back {
+    position: absolute;
+    top: 25%;
+    left: 15px;
+}
+
+.search-main {
+    padding: 2rem 0;
+    background-color: #EEEEEE;
+}
+
+form {
+    width: 400px;
+}

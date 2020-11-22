@@ -36,7 +36,7 @@ function populateHighlightedSection(popularMovies) {
         if(movie.poster_path && movieDetails.homepage) {
             const banner = `
                 <div class="col-lg-3 col-sm-12 mb-3">
-                    <a href="${movieDetails.homepage}" target="_blank">
+                    <a href="https://www.imdb.com/title/${movieDetails.imdb_id}" target="_blank">
                         <img class="movies-banner" src="${imageBaseUrl + movie.poster_path}" alt="${movie.title}">
                     </a>
                 </div>

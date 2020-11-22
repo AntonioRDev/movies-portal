@@ -118,7 +118,7 @@ function populateCarousel(nowPlaying) {
                         </p>
     
                         <div>
-                            <a href=${movieDetails.homepage ? movieDetails.homepage : ""} target="_blank"> 
+                            <a href="https://www.imdb.com/title/${movieDetails.imdb_id}" target="_blank"> 
                                 <button type="button" class="btn btn-primary">Ver detalhes</button>
                             </a>                           
                         </div>

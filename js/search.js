@@ -88,11 +88,13 @@ function makeResultCards(queryResult) {
             const movieDetails = await getMovieDetails(movie.id);
 
             const movieCard = `
-            <div class="card col-3" style="width: 18rem;">
-                <img src="${imageBaseUrl + movie.poster_path}" class="card-img-top" alt="${movie.title}">
-                <div class="card-body">
-                    <h5 class="card-title">${movie.title}</h5>
-                    <p class="card-text">${movie.overview}</p>
+            <div class="card col-3 p-2 mb-3" style="width: 18rem;">
+                <img src="${movie.poster_path ? imageBaseUrl + movie.poster_path : 'assets/images/no-image.jpg'}" class="card-img-top" alt="${movie.title}">
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div class="mb-2"> 
+                        <h5 class="card-title">${movie.title}</h5>
+                        <p class="card-text">${movie.overview}</p>
+                    </div>
                     <a href="https://www.imdb.com/title/${movieDetails.imdb_id}" class="btn btn-primary" target="_blank">Ver detalhes</a>
                 </div>
             </div>

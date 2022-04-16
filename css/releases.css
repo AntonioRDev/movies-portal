@@ -1,5 +1,5 @@
 #releases {
-    background-color: #eeeeee;
+    background-color: #FFC0CB;
 }
 
 #releases .carousel-title {
@@ -48,7 +48,7 @@
 .flag {
     padding: 5px;
     border-radius: 5px;
-    background-color: #F5C518;
+    background-color: #DDA0DD;
 }
 
 .flag .inner-flag {
@@ -57,4 +57,37 @@
 
 .movie-production img {
     height: 50px;
+}
+
+@media (max-width: 600px){
+    .carousel-movie .movie-description{
+        width: 90%;
+    }
+    .carousel-movie .movie-poster {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .carousel-movie .movie-description {
+        width: 93%;
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    .flag {
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #DDA0DD;
+        width: 30%;
+        margin: 5px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .movie-production img{
+        max-width: 60%; 
+        height: auto;
+        justify-content: center;
+    }
+
 }

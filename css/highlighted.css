@@ -20,3 +20,27 @@
 .btn-plus-icon {
     height: 40px;
 }
+
+@media (max-width: 600px){
+   #highlighted{
+       width: 100%;
+       padding: 10px;
+   }
+    .highlighted-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        
+    }
+
+    .movies-banner {
+        margin: 34px;
+    }
+
+
+
+}  
+    
+
+
